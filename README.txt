@@ -12,3 +12,5 @@ BEFORE LAUNCH / CLIENT SUBMISSION:
 7. Do not make unsubstantiated lowest-price, savings, availability or guarantee claims.
 8. Do not use redirects/tracking to conceal destinations from ad platforms; keep ad, landing page and final destination transparent and compliant.
 9. Test every affiliate link and mobile layout before launch.
+
+LOCAL IMAGE ASSETS: This package includes local JPG images under /assets/images/ so the site does not depend on remote Unsplash image URLs.
