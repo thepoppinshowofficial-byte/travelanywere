@@ -1,16 +1,30 @@
-TRAVELANYWERE PRO
+TravelAnywere — Fresh Netlify Package
 
-Upload the CONTENTS of this folder to Netlify.
+UPLOAD
+1. Upload the CONTENTS of this folder to your GitHub repository root, not the outer folder itself.
+2. Keep articles/ and brands/ as folders.
+3. Keep assets/, css/, and js/ at the repository root.
+4. Do not delete assets/.
 
-BEFORE LAUNCH / CLIENT SUBMISSION:
-1. Replace fallback URLs in js/affiliate-links.js with your approved affiliate tracking URLs.
-2. Confirm acceptance and authorization for every affiliate program, including trademark, paid-search, deep-link and creative rules.
-3. Replace placeholder contact details in contact.html.
-4. Review Privacy Policy, Terms and cookie/analytics wording for your actual business and jurisdiction.
-5. Use only brand assets/images you are authorized to use.
-6. Do not represent TravelAnywere as an official brand site.
-7. Do not make unsubstantiated lowest-price, savings, availability or guarantee claims.
-8. Do not use redirects/tracking to conceal destinations from ad platforms; keep ad, landing page and final destination transparent and compliant.
-9. Test every affiliate link and mobile layout before launch.
+STRUCTURE
+index.html
+articles.html
+articles/ (20 article pages)
+brands/ (10 provider pages)
+assets/images/ (local images)
+css/
+js/
+robots.txt
+sitemap.xml
+_redirects
 
-LOCAL IMAGE ASSETS: This package includes local JPG images under /assets/images/ so the site does not depend on remote Unsplash image URLs.
+LINKS
+All article links use /articles/article-*.html.
+All brand links use /brands/brand-*.html.
+All CSS, JS and images use root-relative paths.
+
+AFFILIATE LINKS
+js/affiliate-links.js contains fallback provider URLs. Replace them only with your approved affiliate tracking URLs after the relevant program accepts you.
+
+IMPORTANT
+This package is designed for a transparent content/affiliate site. It does not guarantee Google Ads or affiliate-program approval. Review provider trademark/creative rules, disclosure, privacy/terms, and advertising policies before launch.
